@@ -5,6 +5,15 @@ This program is brought to you by arne.johansen@gmail.com
 It was made for use with the use of free tools like psexec, psloggedon from sysinternals and vnc. The goal is to administrate task of computers with symantec virtual programs simpler. Hope you enjoy it as much as i do!
 Can be modified under GLP as long as my name is mentioned!
 
+psexec, psloggedon must be downloaded from microsoft: https://technet.microsoft.com/en-us/sysinternals/pxexec.aspx & https://technet.microsoft.com/en-us/sysinternals/psloggedon.aspx
+
+Vnc must be downloaded from: https://www.realvnc.com/download/vnc
+
+
+
+
+
+
 Functions today are:
 "Administrate pc's - Last reboot time: "
 -------------------- Row 1 of program buttons ------------------
