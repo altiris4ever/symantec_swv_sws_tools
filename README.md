@@ -2,17 +2,15 @@
 #Fileversion=1.0.0.826
 #symantec_swv_sws_tools
 This program is brought to you by arne.johansen@gmail.com
-It was made for use with the use of free tools like psexec, psloggedon from sysinternals and vnc. The goal is to administrate task of computers with symantec virtual programs simpler. Hope you enjoy it as much as i do!
+It was made for use with free tools like psexec, psloggedon from sysinternals and vnc. The goal is to administrate task of computers with symantec virtual programs simpler. Hope you enjoy it as much as i do!
 Can be modified under GLP as long as my name is mentioned!
 
 psexec, psloggedon must be downloaded from microsoft: https://technet.microsoft.com/en-us/sysinternals/pxexec.aspx & https://technet.microsoft.com/en-us/sysinternals/psloggedon.aspx
 
 Vnc must be downloaded from: https://www.realvnc.com/download/vnc
 
-
-
-
-
+Just drop this files in the same directory as the executable and play around. 
+You have to start the program as an adminuser with access to the c$ on the remote computers you work with.
 
 Functions today are:
 "Administrate pc's - Last reboot time: "
