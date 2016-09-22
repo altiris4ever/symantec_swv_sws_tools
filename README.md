@@ -13,6 +13,7 @@ Just drop the files in the same directory as the executable and play around.
 You have to start the program as an adminuser with access to the c$ on the remote computers you work with.
 
 Latest features are:
+- Check if the computer/ip you want to access is on, and the reply time in ms. Warn us it may not excist if it is turned of. Check if your user has the needed admin access to c$ drive and warns if you don't have
 
 - Show reboot time on computer if streaming agent is installed.
 
@@ -20,7 +21,7 @@ Latest features are:
 
 - Start vnc (can also show if someone is loggedon remotely using psloggedon before vnc is optionally started
 
--  Pc info: normally using info from _ac folder for streaming agent. If that is not found it uses systeminfo
+- Pc info: normally using info from _ac folder for streaming agent. If that is not found it uses systeminfo
 
 - Shows all running processes on computer, arranged by alphabet a-x
 
