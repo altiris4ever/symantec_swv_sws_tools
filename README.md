@@ -25,9 +25,9 @@ Latest features are:
 
 - Pc info: normally using info from _ac folder for streaming agent. If that is not found it uses systeminfo
 
-- Shows all running processes on computer, arranged by alphabet a-x
+- Shows all running processes on computer, arranged by alphabet a-x and using notepad as viewer for output from logfile
 
-- Show virtual packages and using notepad as viewer 
+- Show virtual packages and using notepad as viewer for output from logfile
 
 - Show package properties and using notepad as viewer (also supports wildcards * if you want to do operation on all layers)
 
@@ -37,11 +37,11 @@ Latest features are:
 
 - Reactivate virtual packages and using notepad as viewer (also supports wildcards * if you want to do operation on all layers)
 
-- Show streaming packages and using notepad as viewer 
+- Show streaming packages and using notepad as viewer for output from logfile
 
-- Fix streaming packages and using notepad as viewer 
+- Fix streaming packages shortcuts and using notepad as viewer for output from logfile
 
-- Remove all streaming packages and using notepad as viewer 
+- Remove all streaming packages and using notepad as viewer for output from logfile
 
 - Open c$
 
