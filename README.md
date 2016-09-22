@@ -1,6 +1,6 @@
-# symantec_swv_sws_tools
+#Projectname=symantec_swv_sws_tools
 #Fileversion=1.0.0.826
-#symantec_swv_sws_tools
+#Filename=psexec_vir_eng.exe
 
 It was made for use with free tools like psexec, psloggedon from sysinternals, notepad and vnc. The goal is to administrate task of computers with symantec virtual programs simpler. Hope you enjoy it as much as i do!
 Can be modified under GLP as long as my name is mentioned!
