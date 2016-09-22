@@ -49,3 +49,4 @@ I have also put a lot of error handling if req. programfiles is missing, or you 
 
 The translations from Norwegian may be a little bit bad, but it should be understandable :P
 
+* Known limitations: It's programmed in autoit, so all the functions are run in serial, it means that if you push a button, we have to wait for the function to do it's purpose or time out and fail before the next will be exectuted.
