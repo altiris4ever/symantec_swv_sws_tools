@@ -1,7 +1,7 @@
 # symantec_swv_sws_tools
 #Fileversion=1.0.0.826
 #symantec_swv_sws_tools
-This program is brought to you by arne.johansen@gmail.com
+
 It was made for use with free tools like psexec, psloggedon from sysinternals and vnc. The goal is to administrate task of computers with symantec virtual programs simpler. Hope you enjoy it as much as i do!
 Can be modified under GLP as long as my name is mentioned!
 
@@ -9,39 +9,42 @@ psexec, psloggedon must be downloaded from microsoft: https://technet.microsoft.
 
 Vnc must be downloaded from: https://www.realvnc.com/download/vnc
 
-Just drop this files in the same directory as the executable and play around. 
+Just drop the files in the same directory as the executable and play around. 
 You have to start the program as an adminuser with access to the c$ on the remote computers you work with.
 
-Functions today are:
-"Administrate pc's - Last reboot time: "
--------------------- Row 1 of program buttons ------------------
-"Pc-name: "          ;Create Computername label
-;Create Computername Textbox
-"Start Psexec" ;Create show virtual layers button
-"Start VNC" ;Check if any1 is logged on to pc before starting vnc.
-"Pc-Info " ;Create lastrestart date Textbox
-"Show processes on pc" ;Shows all running prosesses on pc, arranged by alphabet a-x
-"Tools for Virtual-packages"
---------------------------------------------------------------------* Tools for Virtual-packages *-----------------------------------------------------------------------" ;Create Computername label
-;------------ Row 2 of program buttons -----------------
-"Show virtual packages" ;Create show virtual layers button
-"Show package properties" ;Create virtual layer properties button
-"Reset virtual package" ;Reset virtual layer button
-"Deactivate virtual package" ;Deactivate virtual package button
-"Reactivate virtual package" ;Create lastrestart date Textbox
+Latest features are:
 
---------------------------------------------------------------------* Tools for Virtual streaming packages *-----------------------------------------------------------------------" ;Create Computername label
-"Tools for Virtual streaming packages"
-;------------ Row 3 part 1 of program buttons -----------------
-"Show streaming packages" ;show all Streaming packages on remote computer
-"Fix Streaming shortcuts" ;Fix Streaming shortcuts on remote computer if possible.
-"Remove all streaming packages" ;Removes all Streaming packages on remote computer
-"Open folders"
------------- Row 3 part 2 of program buttons -----------------
-"Open c" ;Open up c if running with adminuser on remote computer
-"Open logfiles" ;Open up @TempDir&"\Logfiles
+- Show reboot time on computer if streaming agent is installed.
 
-;------------ Row 4 of program buttons -----------------
-"Exit!" ;exit this program
-;------------ Row 5 Stamped -----------------
-Developed by Arne.Johansen@gmail.com,2016!  Version: " ;show who made this program and version and subversion string
+- Start psexec shell for work on remote computer
+
+- Start vnc (can also show if someone is loggedon remotely using psloggedon before vnc is optionally started
+
+-  Pc info: normally using info from _ac folder for streaming agent. If that is not found it uses systeminfo
+
+- Shows all running processes on computer, arranged by alphabet a-x
+
+- Show virtual packages and using notepad as viewer 
+
+- Show package properties and using notepad as viewer (also supports wildcards * if you want to do operation on all layers)
+
+- Reset virtual packages and using notepad as viewer  (also supports wildcards * if you want to do operation on all layers)
+
+- Deactivate virtual packages and using notepad as viewer (also supports wildcards * if you want to do operation on all layers)
+
+- Reactivate virtual packages and using notepad as viewer (also supports wildcards * if you want to do operation on all layers)
+
+- Show streaming packages and using notepad as viewer 
+
+- Fix streaming packages and using notepad as viewer 
+
+- Remove all streaming packages and using notepad as viewer 
+
+- Open c$
+
+- Open logfiles from operations done on computers with this program (all operations on layers are logged)
+
+I have also put a lot of error handling if req. programfiles is missing, or you don't have access to remote computer resources, if it can't be pinged etc.
+
+The translations from Norwegian may be a little bit bad, but it should be understandable :P
+
