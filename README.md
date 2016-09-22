@@ -15,7 +15,7 @@ You have to start the program as an adminuser with access to the c$ on the remot
 All outputs are shown in notepad from log files, and so they can be copyed and edited on all windows machines.
 
 Latest features are:
-- Check if the computer/ip you want to access is on, and the reply time in ms. Warn us it may not excist if it is turned of. Check if your user has the needed admin access to c$ drive and warns if you don't have
+- Check if the computer/ip you want to access is on via ping, and then the reply time is shown in ms. Warn us it may not excist if it doesn't reply to ping. Then check if your user has the needed admin access to c$ drive and warns if you don't have
 
 - Show reboot time on computer if streaming agent is installed.
 
